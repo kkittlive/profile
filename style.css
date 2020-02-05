@@ -1,0 +1,119 @@
+body {
+  background-color: cornsilk;
+  font-family: "Courier New", Courier, monospace;
+  color: gray;
+  font-size: 10px;
+  line-height: 1.2;
+  margin: 0px;
+}
+
+.container {
+  background-color: seashell;
+  width: 25%;
+  min-width: 400px;
+  margin-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.title {
+  border-top: 5px solid mistyrose;
+  border-bottom: 5px solid mistyrose;
+}
+
+.banner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.actions {
+  vertical-align: middle;
+}
+
+.card {
+  box-shadow: 5px 5px mistyrose;
+  margin-top: 35px;
+}
+
+.footer {
+  border-top: 5px solid mistyrose;
+  border-bottom: 5px solid mistyrose;
+  margin-top: 50px;
+  }
+
+h1 {
+  color: cadetblue;
+  font-family: "Roboto Mono", Monaco, monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: gray;
+  font-family: "Cutive Mono", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.0;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: saddlebrown;
+  font-size: 14px;
+  text-decoration: overline;
+  line-height: 2.0;
+}
+
+a.button {
+  text-decoration: none;
+  background-color: lightpink;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 3px;
+  width: 50%;
+  text-align: center;
+}
+
+a.align-right {
+  float: right;
+}
+
+a:hover {
+  color: lightgrey;
+  text-decoration: line-through underline;
+}
+
+a.button:hover {
+  text-decoration: line-through;
+}
+
+/*a.hyperlink {
+  vertical-align: middle;
+}*/
+
+p {
+  text-align: justify;
+}
+
+.inline-list {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.inline-list > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 90%;
+    min-width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center
+  }
+}
